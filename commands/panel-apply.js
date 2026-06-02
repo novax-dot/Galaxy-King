@@ -42,3 +42,5 @@ await interaction.reply({
   embeds: [embed],
   components: [row]
 });
+}
+};
