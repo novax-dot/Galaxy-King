@@ -1,7 +1,7 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
 module.exports = {
-  name: 'ready',
+  name: 'clientready',
   once: true,
 
   async execute(client) {
