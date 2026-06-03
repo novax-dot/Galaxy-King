@@ -7,8 +7,6 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds]
 });
 
-client.commands = new Collection();
-
 // ⚙️ cargar eventos
 const eventsPath = path.join(__dirname, 'events');
 
