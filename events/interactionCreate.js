@@ -123,7 +123,7 @@ module.exports = {
 
 Gracias por completar tu postulación ${user}.
 
-👑 El equipo de <@&1507474158936653925> revisará tu solicitud pronto.
+👑 El equipo de <&1507474158936653925> revisará tu solicitud pronto.
 
 ────────────────────
 ✨ Si eres seleccionado, serás contactado en este mismo canal o por DM.
