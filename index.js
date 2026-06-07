@@ -4,8 +4,14 @@ const path = require('path');
 require('dotenv').config();
 
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds]
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent
+  ]
 });
+
+console.log("GALAXY SECURITY V2");
 
 // ⚙️ cargar eventos
 const eventsPath = path.join(__dirname, 'events');
